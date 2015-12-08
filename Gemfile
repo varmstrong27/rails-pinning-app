@@ -46,3 +46,7 @@ end
 
 gem 'rspec'
 gem 'rspec-rails'
+
+# Fixes 2 issues Rails apps running Heroku need help with: log to stdout instead of a log file and deliver assets in the same way in production and development
+# Read more: http://12factor.net/
+gem 'rails_12factor'
